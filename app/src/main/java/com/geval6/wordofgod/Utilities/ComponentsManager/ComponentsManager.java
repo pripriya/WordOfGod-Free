@@ -33,7 +33,6 @@ public class ComponentsManager {
                 return true;
             if (activeNetwork.getType() == ConnectivityManager.TYPE_MOBILE)
                 return true;
-
         }
         return false;
     }
